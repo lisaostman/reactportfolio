@@ -10,6 +10,9 @@ function FriendCard(props) {
             <strong>Name:</strong> {props.name}
           </li>
           <li>
+            <img src={props.image}/>
+          </li>
+          <li>
             <strong>Description:</strong> {props.description}
           </li>
           <li>
