@@ -1,0 +1,14 @@
+.cardy {
+  background: rgb(2, 4, 39);
+  border-radius: 2px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 10px 10px 10px 10px;
+  margin: 10px 0px 10px 0px;
+  opacity: 0.7;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+}

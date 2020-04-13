@@ -1,17 +1,30 @@
 import React from "react";
+import '../../public/assets/images/headshot.jpeg';
+import '../../public/assets/css/style.css';
 
 function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
+    <div className="info" id="about">
+        <h1>About</h1>
+        <hr />
+        <div className="container">
+            <div className="row">
+                <div className="col 2 text-right">
+
+                    <img width="200px" src="../../public/assets/images/headshot.jpeg" alt="me" id="headshot" />
+                </div>
+                <div className="col 10">
+                    A Swede turned Aussie with a giant passion for front end web development foremost focusing on the
+                    user's experience
+                    and web responsiveness. A quick learner, I enjoy consistently challenging myself to learn. Currently
+                    completing the University
+                    of Sydney Full Stack Development Boot Camp, focusing on languages such as HTML, CSS3, node.js,
+                    JQuery, MySQL and Mongo.
+                    My projects are listed under the 'portfolio' section of this webpage for your browsing pleasure.
+                </div>
+            </div>
+        </div>
+ </div>
   );
 }
 
