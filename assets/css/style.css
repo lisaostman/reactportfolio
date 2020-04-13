@@ -1,0 +1,264 @@
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .parallax {
+    background-image: url(stars.png);
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .home {
+    height: 100vh !important;
+  }
+
+.navigation {
+    padding-top: 3vh;
+    text-align: center;
+    height: 500px;
+}
+
+.name {
+    line-height: 350px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    font-size: 60px;
+    opacity: 0;
+    transition: opacity 2s;
+    -webkit-transition: opacity 2s; /* Safari */
+}
+
+.namemobile {
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+  font-size: 40px;
+  transition: opacity 2s;
+  -webkit-transition: opacity 2s; /* Safari */
+  display: none;
+  opacity: 0;
+}
+
+h1 {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+
+.info {
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(41, 44, 58);
+    color: rgb(202, 197, 197);
+    border: 1px solid #00006e;
+}
+
+#headshot { border: 1px solid #00006e;
+border-radius: 4px;}
+
+a, a:visited, a:hover {
+    color: white;
+}
+
+.fixedDiv {
+    height: 150px;
+    width: 125px;
+    background: black;  
+    position: fixed;
+    border-radius: 10px;
+    top: 10px;
+    left: 5px;
+    z-index: 5;
+    opacity: 0.5;
+}
+
+.mobilevrs {display: none;}
+
+.fixedDiv:hover {opacity: 0.8}
+
+.slideshow {
+    display: none;
+    z-index: 2;
+    position: fixed;
+    width: 80%;
+    height: 80vh;
+    top: 10%;
+    left: 10%;
+}
+
+.caption {
+  z-index: 1;
+  position: absolute;
+  padding: 2px 2px 2px 2px;
+  top: 2px;
+  right: 2px;
+  background: white;
+  opacity: 0.8;
+  border-radius: 4px;
+  font-size: 10px;
+}
+
+.btn-info {
+  border-radius: 5px !important;
+}
+
+.override {
+  display: none;
+}
+
+.black {
+  color: rgb(43, 43, 43); 
+}
+
+
+.x {
+    display: none;
+    z-index: 3;
+    border-radius: 50px;
+    padding: 3px 6px 3px 6px;
+    background: white;
+    border: blue 1px solid;
+    color: black;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    opacity: 0.7;
+}
+
+.x:hover {
+  opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 75px;
+  width: 75px;
+  outline: black;
+  background-size: 100%, 100%;
+  background: white;
+  opacity: 0.8;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 43px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 43px;
+  color: red;
+}
+
+.table {
+  width: 20px;
+}
+
+.info {
+  padding: 50px 10px 50px 10px;
+}
+
+.name {
+  line-height: 60px !important;
+}
+
+th {
+  padding: 2px 5px 2px 5px;
+  border: none;
+  color: white;
+}
+
+th:hover {
+  background-color: rgb(34, 42, 66);
+  opacity: 0.7;
+}
+
+table {
+  text-align: center;
+  width: 33%;
+  margin-right: 33%;
+  margin-left: 33%;
+  font-size: 20px;
+  
+}
+
+.nav {
+  color: black !important;
+  border: black 1px double;
+  font-size: 12px;
+  width: 100%;
+  padding: 10px 5px 5px 5px;
+}
+
+.nav a:link { color: white; }
+.nav a:visited { color: white; }
+.nav a:hover { color: white; }
+.nav a:active { color: white; }
+
+.navtr {width: 100%;
+}
+
+.nav:hover {
+  background-color: rgb(11, 11, 29);
+  opacity: 0.9;
+}
+
+.navtable {
+  width: auto;
+  margin-right: 3%;
+  margin-left: auto;
+}
+
+.black a:link { color: rgb(0, 29, 92); }
+.black a:visited { color:  rgb(0, 29, 92); }
+.black a:hover { color:  rgb(0, 29, 92);  }
+.black a:active { color:  rgb(0, 29, 92);  }
+
+
+
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .override {
+      display: block;
+      opacity: 0.8 !important;
+      background: black !important;
+    }
+
+    .navigation {
+      position: absolute;
+      top: 200px;
+      right: 200px;
+    }
+
+    .fixedDiv {
+      display: none !important;
+    }
+
+    .mobilevrs {display: block;
+    }
+
+    .screenvrs {display: none;
+    }
+
+    .namemobile {
+      display: block
+    }
+
+    .name {
+      display: none
+    };
+
+  }
+
