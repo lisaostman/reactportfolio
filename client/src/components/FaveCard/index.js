@@ -3,7 +3,7 @@ import "./style.css";
 
 function FriendCard(props) {
   return (
-    <div className="cardy center">
+    <div className="cardys center">
       <div className="content">
         <ul>
           <li>

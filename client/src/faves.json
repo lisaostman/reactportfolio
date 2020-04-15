@@ -16,7 +16,7 @@
   {
     "id": 3,
     "name": "Employee Directory using React.JS",
-    "img": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "img": "",
     "url": "https://github.com/lisaostman/directory",
     "description": "This application utilises React JS. It initialises an axios call upon component mounting to give you thirty random employees. You can then order them via descending or ascending alphabetical order."
   }
