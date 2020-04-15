@@ -2,14 +2,14 @@
   {
     "id": 1,
     "name": "NetFlix Random Roulette",
-    "img": "https://imgur.com/rYhn1cV",
+    "img": "/1.jpeg",
     "url": "https://github.com/leonghh/Bootcamp-Project-2",
     "description": "Ever gotten home, sat down to watch Netflix, and after too much scrolling to find the -perfect- movie, realised that it was time for bed? This webpage allows users to randomly generate a number of movies and TV shows from Netflix. The application randomly shows you movies from your country's location upon loading up the webpage, shows movies from your past search history in a carousel wheel upon searching, finds a number of movies according to your selection of number of, country and genre, creates a random button that allows you to randomly go to the webpage of a netflix movie from your selection if you still have trouble deciding, and utilies a carousel wheel to display posters, ratings, a short synopsis and the movie names for your viewing pleasure."
   },
   {
     "id": 2,
     "name": "Vehicle and Foot Traffic Business Tracker",
-    "img": "https://imgur.com/Cjp7oj3",
+    "img": "/2.jpeg",
     "url": "https://secret-wave-57938.herokuapp.com/",
     "description": "What is the hardest part about being a business owner? Knowing where to start. Most businesses rely on volume turnover, and our application aims to inform the user of current trends in vehicle and foot traffic in the sydney region. The application allows the user to click on the map a street where they would like to set up a business name and save their search using mySQL, and select the type of business, analyse their saved searches, through analysing, they can see the foot and traffic data gathered by the government in a 5km surrounding radius to see what times traffic is high and whether the region is more reliant on foot or vehicle traffic for revenue, and it is mobile responsive so data can still be viewed on small screens on-the-go."
   },

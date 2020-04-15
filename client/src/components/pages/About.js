@@ -11,7 +11,7 @@ function About() {
             <div className="row">
                 <div className="col 2 text-right">
 
-                    <img width="200px" src="../../public/assets/images/headshot.jpeg" alt="me" id="headshot" />
+                    <img width="200px" src={require('../../assets/images/headshot.jpeg')} alt="me" id="headshot" />
                 </div>
                 <div className="col 10">
                     A Swede turned Aussie with a giant passion for front end web development foremost focusing on the

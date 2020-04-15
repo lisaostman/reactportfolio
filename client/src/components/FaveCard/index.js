@@ -2,6 +2,10 @@ import React from "react";
 import "./style.css";
 
 function FriendCard(props) {
+  const imageStyle = {
+    "width": "100%"
+  }
+
   return (
     <div className="cardys center">
       <div className="content">
@@ -10,7 +14,7 @@ function FriendCard(props) {
             <strong>Name:</strong> {props.name}
           </li>
           <li>
-            <img src={props.image}/>
+            <img src={require('.' + props.image)} style={imageStyle}/>
           </li>
           <li>
             <strong>Description:</strong> {props.description}
