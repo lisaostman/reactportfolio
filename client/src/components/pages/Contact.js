@@ -1,6 +1,6 @@
 import React from "react";
-import '../../public/assets/css/style.css';
-import pdf from '../../public/resume.pdf';
+import '../../assets/css/style.css';
+import pdf from '../../resume.pdf';
 
 function Contact() {
   return (

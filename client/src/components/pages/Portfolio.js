@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import '../../public/assets/css/style.css';
+import '../../assets/css/style.css';
 import API from "../../utils/API";
 import RepoCard from "../FriendCard";
 import FaveCard from "../FaveCard";
