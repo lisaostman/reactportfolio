@@ -22,7 +22,7 @@ Features:
 ![Image](/assets/images/1photo.png)
 ![Image](/assets/images/2photo.png)
 
-Have a look for yourself here: [Link](https://lisaostman.github.io/updatedporfolio/)
+Have a look for yourself here: [Link](https://lisaostmanportfolio.herokuapp.com/)
 
 
 
