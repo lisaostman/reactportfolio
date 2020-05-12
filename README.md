@@ -1,7 +1,7 @@
 # Portfolio
 
 ## The Short Version:
-A mobile-friendly portfolio webpage that contains my resume, contact details, previous projects and 'about me' content.
+A mobile-friendly portfolio webpage that contains my resume, contact details, previous projects and 'about me' content. It was created using React.js components and holds a seperate axios call to Github, that picks up all of my Github repositories and their descriptions for ease of viewing in portfolio format.
 
 ## More in-depth user control:
 Languages Used: 
@@ -36,7 +36,8 @@ Npm install necessary add-ons, npm start
 ## Built With
 
 * [React.js](https://reactjs.org/) - The web framework used
-* [Heroku](https://www.heroku.com/) - Dependency Management
+* [Heroku](https://www.heroku.com/) - Place of Deployment
+* [Github Axios Calls](https://github.com/axios/axios) - Axios Calls
  
 ## What Does it look like?
 Have a look for yourself here: [Link](https://lisaostmanportfolio.herokuapp.com/)
