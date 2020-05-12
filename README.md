@@ -1,4 +1,4 @@
-# Portfolio
+# React.js Portfolio
 
 ## The Short Version:
 A mobile-friendly portfolio webpage that contains my resume, contact details, previous projects and 'about me' content. It was created using React.js components and holds a seperate axios call to Github, that picks up all of my Github repositories and their descriptions for ease of viewing in portfolio format.
