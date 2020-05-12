@@ -19,9 +19,6 @@ Features:
  * a download link to a pdf version of my resume
  
 ## What Does it look like?
-![Image](/assets/images/1photo.png)
-![Image](/assets/images/2photo.png)
-
 Have a look for yourself here: [Link](https://lisaostmanportfolio.herokuapp.com/)
 
 
