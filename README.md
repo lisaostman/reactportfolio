@@ -23,7 +23,7 @@ Features:
 What things you need to install the software and how to install them
 
 ```
-To run this application on your computer, you need express and npm.
+To run this application on your computer, you need npm.
 ```
 
 ### Installing
