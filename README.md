@@ -22,4 +22,3 @@ Features:
 Have a look for yourself here: [Link](https://lisaostmanportfolio.herokuapp.com/)
 
 
-
