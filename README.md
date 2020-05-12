@@ -41,4 +41,3 @@ Npm install necessary add-ons, npm start
  
 ## What Does it look like?
 Have a look for yourself here: [Link](https://lisaostmanportfolio.herokuapp.com/)
-
